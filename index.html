@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atardeceres y Paisajes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="prelogin">
+  <div id="overlay-login">
+    <div class="login-box">
+      <form id="login-form">
+        <input type="text" placeholder="usuario" required />
+        <input type="password" placeholder="contraseña" required />
+        <button type="submit">ingresar</button>
+      </form>
+    </div>
+  </div>
+
+  <header>
+    <img id="logo" src="loguito.jpeg" alt="Logo Atardeceres" />
+    <h1>Atardeceres MyE</h1>
+  </header>
+
+  <nav>
+    <a href="#" data-section="inicio">Inicio</a>
+    <a href="#" data-section="galeria">Galería</a>
+    <a href="#" data-section="opciones">Opciones</a>
+  </nav>
+
+  <aside>
+    <h2>Información</h2>
+    <p>1. Seleccionamos este tema para exhibir el paisaje uruguayo y argentino.</p>
+    <p>2. Estas imágenes son tomadas desde distintas localidades de Uruguay y Argentina.</p>
+    <div id="bandera">
+      <img src="bandera.gif" alt="bandera" />
+    </div>
+  </aside>
+
+  <main id="main-content" class="locked">
+    <!-- Inicio: misma paleta que el aside + texto al centro -->
+    <section id="vista-inicio" class="vista centered" aria-hidden="true">
+      <div class="mensaje-centro">
+        <h2>Inicio</h2>
+        <p>Usá el menú para navegar. Elegí “Galería” para ver las imágenes.</p>
+      </div>
+    </section>
+
+    <!-- Galería: tema oscuro -->
+    <section id="vista-galeria" class="vista" aria-hidden="true">
+      <h2>Galería</h2>
+      <div class="galeria">
+        <img src="/atardecer 1.jpeg" alt="Imagen 1" loading="lazy" />
+        <img src="/atardecer 2.jpeg" alt="Imagen 2" loading="lazy" />
+        <img src="/atardecer 3.jpeg" alt="Imagen 3" loading="lazy" />
+        <img src="/atardecer 4.jpeg" alt="Imagen 4" loading="lazy" />
+        <img src="/atardecer 5.jpeg" alt="Imagen 5" loading="lazy" />
+        <img src="/atardecer 6.jpeg" alt="Imagen 6" loading="lazy" />
+        <img src="/atardecer 7.jpeg" alt="Imagen 7" loading="lazy" />
+        <img src="/atardecer 8.jpeg" alt="Imagen 8" loading="lazy" />
+        <img src="/atardecer 9.jpeg" alt="Imagen 9" loading="lazy" />
+        <img src="/atardecer 10.jpeg" alt="Imagen 10" loading="lazy" />
+        <img src="/WhatsApp Image 2025-09-30 at 11.39.07.jpeg" alt="Imagen 11" loading="lazy" />
+        <img src="/WhatsApp Image 2025-09-30 at 11.40.11.jpeg" alt="Imagen 12" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Opciones: misma paleta que el aside + texto al centro -->
+    <section id="vista-opciones" class="vista centered" aria-hidden="true">
+      <div class="mensaje-centro">
+        <h2>Opciones</h2>
+        <p>Configuraciones y ajustes próximamente.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Macarena Marqués & Eloy Molina</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
